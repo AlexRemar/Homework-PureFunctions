@@ -1,11 +1,11 @@
 
 function lifeStrip(value){
     if(value.health > 50){
-        console.log('healthy')
+        return 'healthy';
     } else if(value.health >= 15 && value.health <= 50){
-        console.log('wounded')
+        return 'wounded';
     } else if(value.health < 15){
-        console.log('critical')
+        return 'critical';
     }
 }
 
